@@ -1,0 +1,27 @@
+Backend (ASP.NET Core - Visual Studio 2022)
+---------------------------------------------
+- Open the cloned folder using Visual Studio 2022.
+- Once open, click on the solution file named TodoApp.sln.
+- The user may need to migrate and update the database.
+- If required, open Package Manager Console in Visual Studio and type:
+Update-Database
+- If the database still doesnt work:
+- Open SQLiteStudio (or similar)
+- Import the database file from TodoApp.API/todos.db
+- Once setup is okay, press F5 in Visual Studio 2022 to run the backend.
+- The Swagger UI should open (e.g., https://localhost:7077/swagger).
+
+ Frontend (React App)
+------------------------
+- No need to use Visual Studio for this.
+- Open Command Prompt (or terminal).
+- Navigate to the React frontend folder:
+cd todo-ui
+- Run the following to install dependencies:
+npm install
+- Once done, start the app by typing:
+npm start
+If everything runs fine:
+- Backend API runs at: https://localhost:7077
+- Frontend runs at: http://localhost:3000
+Both should be working together.
