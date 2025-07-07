@@ -8,6 +8,7 @@ Update-Database
 - If the database still doesnt work:
 - Open SQLiteStudio (or similar)
 - Import the database file from TodoApp.API/todos.db
+- Right-click on the todoApp.Api set is as the startup project
 - Once setup is okay, press F5 in Visual Studio 2022 to run the backend.
 - The Swagger UI should open (e.g., https://localhost:7077/swagger).
 
