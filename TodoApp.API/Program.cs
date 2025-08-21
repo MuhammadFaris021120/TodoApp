@@ -19,7 +19,11 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
+<<<<<<< HEAD
 Console.WriteLine("Conflict Test B");
+=======
+Console.WriteLine("Conflict Test C");
+>>>>>>> 83ff2cd (Conlict A)
 
 
 // Add DbContext (SQLite)
