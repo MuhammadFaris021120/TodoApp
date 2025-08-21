@@ -5,6 +5,9 @@ using TodoApp.Core.Interfaces;
 using TodoApp.Infrastructure.Data;
 using TodoApp.Infrastructure.Repositories;
 
+// Practice change for feature/test-branch
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
