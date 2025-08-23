@@ -13,3 +13,4 @@ namespace TodoApp.Core.Entities
         public bool IsCompleted { get; set; } = false;
     }
 }
+//testing
